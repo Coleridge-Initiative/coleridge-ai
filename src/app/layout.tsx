@@ -27,17 +27,17 @@ export default function RootLayout({
     </html>
   );
 }
-// Ensure the required module 'cliui' is installed
-import { useEffect } from "react";
+// // Ensure the required module 'cliui' is installed
+// import { useEffect } from "react";
 
-// useEffect(() => {
-//   const checkCliuiModule = async () => {
-//     try {
-//       await import('cliui');
-//     } catch (error) {
-//       console.error("Module 'cliui' is not found. Please install it using 'npm install cliui'");
-//     }
-//   };
+// // useEffect(() => {
+// //   const checkCliuiModule = async () => {
+// //     try {
+// //       await import('cliui');
+// //     } catch (error) {
+// //       console.error("Module 'cliui' is not found. Please install it using 'npm install cliui'");
+// //     }
+// //   };
 
-//   checkCliuiModule();
-// }, []);
+// //   checkCliuiModule();
+// // }, []);
